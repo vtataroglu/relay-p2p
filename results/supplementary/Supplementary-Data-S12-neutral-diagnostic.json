@@ -1,0 +1,239 @@
+{
+ "armMeansPercentage": {
+  "popularity": {
+   "exact_fixed_fanout7_degree20": 56.592187499999994,
+   "exact_fixed_fanout7_degree24": 56.221875,
+   "exact_fixed_fanout7_degree8": 58.46249999999999,
+   "exact_full_fanout0_degree24": 46.321875,
+   "exact_full_fanout0_degree8": 17.5421875,
+   "position_degree20": 56.3984375,
+   "position_degree24": 56.565625,
+   "position_degree8": 58.7515625
+  },
+  "uniform": {
+   "exact_fixed_fanout7_degree20": 56.557812500000004,
+   "exact_fixed_fanout7_degree24": 56.24374999999999,
+   "exact_fixed_fanout7_degree8": 56.39062500000001,
+   "exact_full_fanout0_degree24": 51.146875,
+   "exact_full_fanout0_degree8": 16.8421875,
+   "position_degree20": 56.6359375,
+   "position_degree24": 57.04687500000001,
+   "position_degree8": 57.418749999999996
+  }
+ },
+ "experiment": "neutral-complete-set-diagnostic",
+ "gate1": {
+  "contrasts": [
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 3.954435770156528e-09,
+    "holmAdjustedP": 6.91444666304231e-09,
+    "lowerBoundPercentagePoints": 1.2379434638188862,
+    "lowerBoundProbability": 0.012379434638188861,
+    "meanPercentagePoints": 1.870312499999998,
+    "meanProbability": 0.01870312499999998,
+    "nGraphs": 64,
+    "name": "popularity d8 minus d20",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 2.3048155543474364e-09,
+    "pass": true,
+    "sdPercentagePoints": 2.2031492385810605
+   },
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 7.424697299031682e-10,
+    "holmAdjustedP": 8.412281912911318e-10,
+    "lowerBoundPercentagePoints": 1.5441884930113288,
+    "lowerBoundProbability": 0.015441884930113288,
+    "meanPercentagePoints": 2.240624999999997,
+    "meanProbability": 0.02240624999999997,
+    "nGraphs": 64,
+    "name": "popularity d8 minus d24",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 2.1030704782278296e-10,
+    "pass": true,
+    "sdPercentagePoints": 2.4263578263700696
+   },
+   {
+    "directionAndBoundPass": false,
+    "exactSignFlipP": 0.7200827856879873,
+    "holmAdjustedP": 0.7183805936105254,
+    "lowerBoundPercentagePoints": -0.8278219965766449,
+    "lowerBoundProbability": -0.00827821996576645,
+    "meanPercentagePoints": -0.16718749999999893,
+    "meanProbability": -0.0016718749999999893,
+    "nGraphs": 64,
+    "name": "uniform d8 minus d20",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 0.7183805936105254,
+    "pass": false,
+    "sdPercentagePoints": 2.3016250082433958
+   },
+   {
+    "directionAndBoundPass": false,
+    "exactSignFlipP": 0.3067639253040718,
+    "holmAdjustedP": 0.610698327697886,
+    "lowerBoundPercentagePoints": -0.5123111860126153,
+    "lowerBoundProbability": -0.005123111860126152,
+    "meanPercentagePoints": 0.14687500000000014,
+    "meanProbability": 0.0014687500000000013,
+    "nGraphs": 64,
+    "name": "uniform d8 minus d24",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 0.305349163848943,
+    "pass": false,
+    "sdPercentagePoints": 2.2965791503126494
+   }
+  ],
+  "pass": false
+ },
+ "gate2": {
+  "contrasts": [
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 5.421010862427522e-20,
+    "holmAdjustedP": 1.3131612875732388e-65,
+    "meanPercentagePoints": -28.7796875,
+    "meanProbability": -0.287796875,
+    "nGraphs": 64,
+    "name": "popularity full d8 minus d24",
+    "oneSidedAlpha": 0.025,
+    "oneSidedTP": 1.3131612875732388e-65,
+    "pass": true,
+    "sdPercentagePoints": 2.85324541962362,
+    "upperBoundPercentagePoints": -28.066968000292537,
+    "upperBoundProbability": -0.28066968000292536
+   },
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 5.421010862427522e-20,
+    "holmAdjustedP": 8.014929584230625e-71,
+    "meanPercentagePoints": -34.3046875,
+    "meanProbability": -0.343046875,
+    "nGraphs": 64,
+    "name": "uniform full d8 minus d24",
+    "oneSidedAlpha": 0.025,
+    "oneSidedTP": 4.0074647921153124e-71,
+    "pass": true,
+    "sdPercentagePoints": 2.77571267482328,
+    "upperBoundPercentagePoints": -33.61133510369871,
+    "upperBoundProbability": -0.3361133510369871
+   }
+  ],
+  "pass": true
+ },
+ "gate3": {
+  "contrasts": [
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 9.753317294428077e-11,
+    "holmAdjustedP": 3.393129661887956e-10,
+    "lowerBoundPercentagePoints": 1.6431456592382048,
+    "lowerBoundProbability": 0.016431456592382047,
+    "meanPercentagePoints": 2.353124999999998,
+    "meanProbability": 0.023531249999999983,
+    "nGraphs": 64,
+    "name": "popularity matched d8 minus d20",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 8.567241287310791e-11,
+    "pass": true,
+    "sdPercentagePoints": 2.4735405348968436
+   },
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 2.092980879754569e-10,
+    "holmAdjustedP": 3.393129661887956e-10,
+    "lowerBoundPercentagePoints": 1.5266144748361143,
+    "lowerBoundProbability": 0.015266144748361144,
+    "meanPercentagePoints": 2.1859374999999988,
+    "meanProbability": 0.021859374999999986,
+    "nGraphs": 64,
+    "name": "popularity matched d8 minus d24",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 8.48282415471989e-11,
+    "pass": true,
+    "sdPercentagePoints": 2.2970558926176596
+   },
+   {
+    "directionAndBoundPass": true,
+    "exactSignFlipP": 0.0030463942241287165,
+    "holmAdjustedP": 0.005889115640687476,
+    "lowerBoundPercentagePoints": 0.15226848742185664,
+    "lowerBoundProbability": 0.0015226848742185663,
+    "meanPercentagePoints": 0.7828124999999988,
+    "meanProbability": 0.007828124999999988,
+    "nGraphs": 64,
+    "name": "uniform matched d8 minus d20",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 0.002944557820343738,
+    "pass": true,
+    "sdPercentagePoints": 2.196790927007874
+   },
+   {
+    "directionAndBoundPass": false,
+    "exactSignFlipP": 0.12360099008359718,
+    "holmAdjustedP": 0.12273941453699865,
+    "lowerBoundPercentagePoints": -0.35651491967044435,
+    "lowerBoundProbability": -0.0035651491967044436,
+    "meanPercentagePoints": 0.3718749999999988,
+    "meanProbability": 0.0037187499999999877,
+    "nGraphs": 64,
+    "name": "uniform matched d8 minus d24",
+    "oneSidedAlpha": 0.0125,
+    "oneSidedTP": 0.12273941453699865,
+    "pass": false,
+    "sdPercentagePoints": 2.5376822790109737
+   }
+  ],
+  "pass": false
+ },
+ "jointPass": false,
+ "note": "Complete set diagnostic for the degree prior. Paired graph differences between relay sets held at exact degrees 8, 20 and 24, over 64 graphs per attachment family, seeds 4701-4764 and 4801-4864. gate1 is the exact arm family under limited fanout, gate2 the full forwarding control, gate3 the position matched arms; positionBalance reports the exposure rank and core distance gaps of the matcher. Rerun with experiments/run_neutral_diagnostic.sh.",
+ "positionBalance": {
+  "popularity": {
+   "coreDistanceThreshold": 0.1,
+   "exposureThreshold": 0.05,
+   "groupMeanCoreDistance": {
+    "20": 1.6496875000000002,
+    "24": 1.6490625,
+    "8": 1.6490625
+   },
+   "groupMeanExposurePercentile": {
+    "20": 0.5112869545207854,
+    "24": 0.5119917334480052,
+    "8": 0.5122706108309607
+   },
+   "maxMeanCoreDistanceGap": 0.0006250000000000977,
+   "maxMeanExposurePercentileGap": 0.0009836563101752738,
+   "pass": true
+  },
+  "uniform": {
+   "coreDistanceThreshold": 0.1,
+   "exposureThreshold": 0.05,
+   "groupMeanCoreDistance": {
+    "20": 1.5162499999999999,
+    "24": 1.5162499999999999,
+    "8": 1.5162499999999999
+   },
+   "groupMeanExposurePercentile": {
+    "20": 0.516531613566779,
+    "24": 0.5166118105516677,
+    "8": 0.5169160950727145
+   },
+   "maxMeanCoreDistanceGap": 0.0,
+   "maxMeanExposurePercentileGap": 0.0003844815059355078,
+   "pass": true
+  }
+ },
+ "protocol": "neutral-mechanism-v1",
+ "validation": {
+  "exactProbeRows": 640000,
+  "exactSummaryRows": 640,
+  "families": {
+   "popularity": 64,
+   "uniform": 64
+  },
+  "graphs": 128,
+  "positionSummaryRows": 384
+ }
+}

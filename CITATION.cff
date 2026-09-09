@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this software or data, please cite the paper below.
+title: >-
+  RouteBand: A Novel Relay Selection Mechanism Using Route Exposure under
+  Limited Fanout in Unstructured P2P Networks
+authors:
+  - family-names: Tataroğlu
+    given-names: Vasfi
+    affiliation: >-
+      Department of Computer Engineering, Faculty of Engineering,
+      Pamukkale University, Denizli, Turkey
+    email: vtataroglu@pau.edu.tr
+license: MIT
+repository-code: https://github.com/vtataroglu/relay-p2p
+version: 1.0.0
+date-released: '2026-09-09'

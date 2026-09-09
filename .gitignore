@@ -1,0 +1,28 @@
+# build output
+bin/
+obj/
+*.dll
+*.pdb
+
+# experiment working trees; regenerate with the runners
+experiments/runs/
+experiments/sweep/
+experiments/tau/
+experiments/daus/
+experiments/kbudget/
+experiments/neutral/
+experiments/ten-arm/
+gnutella/out/
+gnutella/out-analysis/
+*.lock/
+
+# row-level records, reproducible from the runners
+*-probes.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store

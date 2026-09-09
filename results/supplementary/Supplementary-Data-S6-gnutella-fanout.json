@@ -1,0 +1,438 @@
+{
+ "cells": [
+  {
+   "contrasts": [
+    {
+     "ci95": [
+      -0.9076554862467362,
+      0.8543221529134087
+     ],
+     "contrast": "routeband minus degreeutility",
+     "mean": -0.02666666666666373,
+     "n": 9,
+     "sd": 1.1461239025515528,
+     "wins": 6
+    },
+    {
+     "ci95": [
+      2.6873272331190763,
+      5.300820915029075
+     ],
+     "contrast": "routeband minus maxdeg",
+     "mean": 3.9940740740740757,
+     "n": 9,
+     "sd": 1.7000145242661995,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      0.06666139729711518,
+      1.1155608249251134
+     ],
+     "contrast": "routeband minus bandexposure",
+     "mean": 0.5911111111111143,
+     "n": 9,
+     "sd": 0.6822837467733761,
+     "wins": 7
+    },
+    {
+     "ci95": [
+      -0.11370919969585924,
+      1.210005495992158
+     ],
+     "contrast": "routeband minus product",
+     "mean": 0.5481481481481494,
+     "n": 9,
+     "sd": 0.8610444418636006,
+     "wins": 7
+    },
+    {
+     "ci95": [
+      8.745397011514822,
+      16.303491877374068
+     ],
+     "contrast": "routeband minus sham",
+     "mean": 12.524444444444445,
+     "n": 9,
+     "sd": 4.91635818241285,
+     "wins": 9
+    }
+   ],
+   "fanout": 7,
+   "snapshotMeans": {
+    "Gnutella04": {
+     "bandexposure": 84.48,
+     "degreeutility": 85.24,
+     "exposure": 78.56,
+     "maxdeg": 77.08,
+     "product": 83.68,
+     "routeband": 84.12,
+     "sham": 76.44
+    },
+    "Gnutella05": {
+     "bandexposure": 92.36,
+     "degreeutility": 92.96,
+     "exposure": 90.8,
+     "maxdeg": 89.68,
+     "product": 91.84,
+     "routeband": 93.4,
+     "sham": 80.08
+    },
+    "Gnutella06": {
+     "bandexposure": 91.88,
+     "degreeutility": 92.52,
+     "exposure": 90.36,
+     "maxdeg": 90.24,
+     "product": 92.04,
+     "routeband": 92.76,
+     "sham": 79.4
+    },
+    "Gnutella08": {
+     "bandexposure": 99.16,
+     "degreeutility": 99.16,
+     "exposure": 98.28,
+     "maxdeg": 97.8,
+     "product": 99.36,
+     "routeband": 99.4,
+     "sham": 94.84
+    },
+    "Gnutella09": {
+     "bandexposure": 97.32,
+     "degreeutility": 97.44,
+     "exposure": 95.52,
+     "maxdeg": 93.84,
+     "product": 97.44,
+     "routeband": 97.64,
+     "sham": 87.8
+    },
+    "Gnutella24": {
+     "bandexposure": 71.08,
+     "degreeutility": 70.08,
+     "exposure": 70.8,
+     "maxdeg": 67.68,
+     "product": 69.76,
+     "routeband": 71.88,
+     "sham": 55.76
+    },
+    "Gnutella25": {
+     "bandexposure": 74.88,
+     "degreeutility": 75.6,
+     "exposure": 75.48,
+     "maxdeg": 73.56,
+     "product": 76.88,
+     "routeband": 76.32,
+     "sham": 54.76
+    },
+    "Gnutella30": {
+     "bandexposure": 59.4,
+     "degreeutility": 61.2,
+     "exposure": 56.066667,
+     "maxdeg": 54.733333,
+     "product": 58.266667,
+     "routeband": 59.0,
+     "sham": 47.0
+    },
+    "Gnutella31": {
+     "bandexposure": 39.92,
+     "degreeutility": 41.84,
+     "exposure": 37.16,
+     "maxdeg": 35.24,
+     "product": 41.6,
+     "routeband": 41.28,
+     "sham": 27.0
+    }
+   }
+  },
+  {
+   "contrasts": [
+    {
+     "ci95": [
+      2.3793454377738428,
+      6.731765673337261
+     ],
+     "contrast": "routeband minus degreeutility",
+     "mean": 4.555555555555552,
+     "n": 9,
+     "sd": 2.831144252378847,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      1.548646212400361,
+      5.926909343155193
+     ],
+     "contrast": "routeband minus maxdeg",
+     "mean": 3.737777777777777,
+     "n": 9,
+     "sd": 2.847954431595498,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      -0.7014965965644917,
+      0.9533484484163404
+     ],
+     "contrast": "routeband minus bandexposure",
+     "mean": 0.1259259259259243,
+     "n": 9,
+     "sd": 1.076436737287757,
+     "wins": 3
+    },
+    {
+     "ci95": [
+      -0.3315594895755577,
+      0.707855785871845
+     ],
+     "contrast": "routeband minus product",
+     "mean": 0.18814814814814362,
+     "n": 9,
+     "sd": 0.6761145348219701,
+     "wins": 4
+    },
+    {
+     "ci95": [
+      10.977390555424146,
+      20.09223907420548
+     ],
+     "contrast": "routeband minus sham",
+     "mean": 15.534814814814812,
+     "n": 9,
+     "sd": 5.928988838071404,
+     "wins": 9
+    }
+   ],
+   "fanout": 11,
+   "snapshotMeans": {
+    "Gnutella04": {
+     "bandexposure": 86.6,
+     "degreeutility": 82.96,
+     "exposure": 80.0,
+     "maxdeg": 76.28,
+     "product": 86.88,
+     "routeband": 86.6,
+     "sham": 73.36
+    },
+    "Gnutella05": {
+     "bandexposure": 94.16,
+     "degreeutility": 90.8,
+     "exposure": 92.76,
+     "maxdeg": 91.2,
+     "product": 93.48,
+     "routeband": 93.48,
+     "sham": 78.0
+    },
+    "Gnutella06": {
+     "bandexposure": 95.04,
+     "degreeutility": 91.76,
+     "exposure": 92.72,
+     "maxdeg": 91.64,
+     "product": 93.92,
+     "routeband": 93.68,
+     "sham": 79.28
+    },
+    "Gnutella08": {
+     "bandexposure": 99.6,
+     "degreeutility": 99.0,
+     "exposure": 99.2,
+     "maxdeg": 98.72,
+     "product": 99.4,
+     "routeband": 99.44,
+     "sham": 94.04
+    },
+    "Gnutella09": {
+     "bandexposure": 97.56,
+     "degreeutility": 93.76,
+     "exposure": 96.72,
+     "maxdeg": 95.48,
+     "product": 97.88,
+     "routeband": 97.84,
+     "sham": 85.28
+    },
+    "Gnutella24": {
+     "bandexposure": 72.48,
+     "degreeutility": 66.2,
+     "exposure": 71.72,
+     "maxdeg": 70.36,
+     "product": 74.12,
+     "routeband": 74.52,
+     "sham": 55.12
+    },
+    "Gnutella25": {
+     "bandexposure": 81.4,
+     "degreeutility": 72.84,
+     "exposure": 81.4,
+     "maxdeg": 78.52,
+     "product": 79.92,
+     "routeband": 80.88,
+     "sham": 53.2
+    },
+    "Gnutella30": {
+     "bandexposure": 62.333333,
+     "degreeutility": 54.666667,
+     "exposure": 62.866667,
+     "maxdeg": 58.466667,
+     "product": 62.933333,
+     "routeband": 62.266667,
+     "sham": 46.933333
+    },
+    "Gnutella31": {
+     "bandexposure": 41.08,
+     "degreeutility": 38.4,
+     "exposure": 40.36,
+     "maxdeg": 37.08,
+     "product": 41.16,
+     "routeband": 42.68,
+     "sham": 26.36
+    }
+   }
+  },
+  {
+   "contrasts": [
+    {
+     "ci95": [
+      0.7273656364722334,
+      3.874115845009252
+     ],
+     "contrast": "routeband minus degreeutility",
+     "mean": 2.3007407407407428,
+     "n": 9,
+     "sd": 2.0468850167034174,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      0.7530568548905276,
+      5.6262024043687315
+     ],
+     "contrast": "routeband minus maxdeg",
+     "mean": 3.1896296296296294,
+     "n": 9,
+     "sd": 3.169863493575274,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      0.05873299252965869,
+      2.9012670074703397
+     ],
+     "contrast": "routeband minus bandexposure",
+     "mean": 1.4799999999999993,
+     "n": 9,
+     "sd": 1.8489997295835376,
+     "wins": 9
+    },
+    {
+     "ci95": [
+      0.09422347050055313,
+      2.290961714684632
+     ],
+     "contrast": "routeband minus product",
+     "mean": 1.1925925925925926,
+     "n": 9,
+     "sd": 1.4289251766603535,
+     "wins": 6
+    },
+    {
+     "ci95": [
+      12.775799491618809,
+      25.07012643430711
+     ],
+     "contrast": "routeband minus sham",
+     "mean": 18.92296296296296,
+     "n": 9,
+     "sd": 7.997162768487274,
+     "wins": 9
+    }
+   ],
+   "fanout": 15,
+   "snapshotMeans": {
+    "Gnutella04": {
+     "bandexposure": 84.88,
+     "degreeutility": 90.16,
+     "exposure": 84.88,
+     "maxdeg": 80.16,
+     "product": 89.24,
+     "routeband": 90.52,
+     "sham": 75.56
+    },
+    "Gnutella05": {
+     "bandexposure": 95.4,
+     "degreeutility": 95.04,
+     "exposure": 95.4,
+     "maxdeg": 95.0,
+     "product": 96.48,
+     "routeband": 95.8,
+     "sham": 78.16
+    },
+    "Gnutella06": {
+     "bandexposure": 96.16,
+     "degreeutility": 95.48,
+     "exposure": 96.2,
+     "maxdeg": 95.2,
+     "product": 95.84,
+     "routeband": 96.6,
+     "sham": 80.6
+    },
+    "Gnutella08": {
+     "bandexposure": 99.72,
+     "degreeutility": 99.56,
+     "exposure": 99.68,
+     "maxdeg": 99.56,
+     "product": 99.84,
+     "routeband": 99.76,
+     "sham": 93.24
+    },
+    "Gnutella09": {
+     "bandexposure": 98.36,
+     "degreeutility": 98.56,
+     "exposure": 98.36,
+     "maxdeg": 97.92,
+     "product": 99.36,
+     "routeband": 99.2,
+     "sham": 86.76
+    },
+    "Gnutella24": {
+     "bandexposure": 78.84,
+     "degreeutility": 75.16,
+     "exposure": 78.88,
+     "maxdeg": 75.56,
+     "product": 78.0,
+     "routeband": 79.04,
+     "sham": 55.72
+    },
+    "Gnutella25": {
+     "bandexposure": 86.0,
+     "degreeutility": 82.32,
+     "exposure": 85.8,
+     "maxdeg": 84.36,
+     "product": 84.28,
+     "routeband": 86.56,
+     "sham": 51.96
+    },
+    "Gnutella30": {
+     "bandexposure": 66.333333,
+     "degreeutility": 64.066667,
+     "exposure": 67.0,
+     "maxdeg": 66.066667,
+     "product": 66.6,
+     "routeband": 69.333333,
+     "sham": 46.466667
+    },
+    "Gnutella31": {
+     "bandexposure": 46.68,
+     "degreeutility": 44.64,
+     "exposure": 46.68,
+     "maxdeg": 43.16,
+     "product": 45.32,
+     "routeband": 48.88,
+     "sham": 26.92
+    }
+   }
+  }
+ ],
+ "experiment": "gnutella-measured-topology-fanout",
+ "nHolders": 43,
+ "nSnapshots": 9,
+ "note": "Same nine SNAP Gnutella snapshots, same 43 holders, same fixed candidate construction; only the query fanout differs. Intervals are descriptive paired Student t intervals and the snapshots share a collection period, so they are not independent samples.",
+ "unit": "snapshot mean, equally weighted"
+}
